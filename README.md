@@ -32,7 +32,7 @@ An application created in Kotlin for the final project of the mobile development
 ## Contributors
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/maximilienbey"><img src="https://avatars.githubusercontent.com/u/25161793?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Maximilien BEY</b></sub></a><br /></td>
-    <td align="center"><a href="https://turnipguy30.github.io"><img src="https://avatars.githubusercontent.com/u/50542928?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexandre SIRI</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/maximilienbey"><img src="https://user-images.githubusercontent.com/40000619/164913274-bde8e7b1-8282-4bab-8da3-0f5e7f1706ee.png" width="100px;" alt=""/><br /><sub><b>Maximilien BEY</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/asiribg"><img src="https://user-images.githubusercontent.com/40000619/164913327-6980c63c-6212-4694-8a3b-503e18c512a0.png" width="100px;" alt=""/><br /><sub><b>Alexandre SIRI</b></sub></a><br /></td>
   </tr>
 </table>
