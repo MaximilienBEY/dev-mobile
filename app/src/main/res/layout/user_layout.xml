@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/user"
+            android:contentDescription="@string/user_avatar" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@id/avatar"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maxou"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/text_primary"
+                    android:textFontWeight="700"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/user_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif"
+                    android:text="24/02/2022"
+                    android:textColor="@color/text_secondary"
+                    android:textFontWeight="700"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/user_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head"
+                android:fontFamily="sans-serif"
+                android:text="Bonjour, c'est pour votre race"
+                android:textColor="@color/text_secondary"
+                android:textFontWeight="400"
+                android:textSize="12sp"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+        </RelativeLayout>
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/text_tertiary"/>
+</RelativeLayout>
